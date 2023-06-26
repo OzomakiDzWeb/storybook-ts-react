@@ -1,0 +1,67 @@
+.btnn {
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     border-radius: 25px;
+     cursor: pointer;
+}
+.small{
+     width: 73px;
+     height: 48px;
+}
+.medim {
+     width: 89px;
+     height: 48px;
+}
+.larg {
+     width: 149px;
+     height: 48px;
+}
+.edit{
+     color: var(--cloor-bleu-100);
+    background-color : var(--cloor-lghitBg)
+}
+.edit:hover{
+background-color: var(--cloor-gray-100);
+}
+.editDark{
+     color:var(--cloor-lghitBg) ;
+     background-color: var(--cloor-bleu-400);
+}
+.editDark:hover{
+     background-color: var(--cloor-lghitBg);
+     color: var(--cloor-gray-100);
+}
+.MarkAsPaid {
+     color: white;
+     background-color:var(--cloor-bleu-300) ;
+}
+
+.MarkAsPaid:hover{
+     color: var(--cloor-lghitBg);
+background-color:var(--cloor-bleu-200) ;
+}
+.delet{
+     color: var(--cloor-lghitBg);
+     background-color:var(--color-red-200) ;
+}
+.delet:hover{
+ background-color: var(--color-red-100);
+}
+.draftLghit{
+  color: var(--cloor-lghitBg);
+  background-color: var(--cloor-bleu-400);
+}
+.draftLghit:hover{
+background-color: var(--cloor-dark-200);
+color: var(--cloor-gray-200);
+}
+.draftDark{
+color: var(--cloor-gray-200);
+background-color: var(--cloor-bleu-400);
+}
+.draftDark:hover{
+background-color: var(--cloor-bleu-500);
+color: var(--cloor-lghitBg);
+}

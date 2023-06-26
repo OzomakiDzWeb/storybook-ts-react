@@ -1,0 +1,108 @@
+.newInvios{
+     width: 584px;
+     padding: 20px 40px ;
+     border: 1px solid var(--cloor-bleu-100);
+     background-color: white;
+     border-radius: 0px 12px 12px 0px;
+}
+.newInvios.dark{
+     background-color: var(--cloor-bleu-500);
+     
+}
+.newInvios.dark input {
+     background-color: var(--cloor-bleu-400);
+
+}
+.newInvios.dark .datpaytment .post select {
+     background-color: var(--cloor-bleu-400);
+
+}
+.newInvios.dark input[type='text'] {
+     font-size: 15px;
+     line-height: 15px;
+     letter-spacing: -0.25;
+     font-weight: bold;
+     color: white;
+}
+.newInvios> h4,.newInvios p{
+     color: var(--cloor-bleu-100);
+}
+.newInvios input,.datpaytment div select {
+     border: 1px solid var(--cloor-bleu-100);
+     border-radius: 4px;
+     height: 48px;
+     padding: 0px 0px 0px 5px;
+     
+
+}
+
+.newInvios >input{
+     width: 100%;
+}
+
+.newInvios input[type='text']{
+          font-size: 15px;
+          line-height: 15px;
+          letter-spacing: -0.25;
+          font-weight: bold;
+}
+.newInvios input:focus{
+     outline: none;
+     
+}
+.newInvios .stritAdress input{
+ width: 152px;
+ 
+}
+.newInvios .stritAdress{
+   display: flex;
+   justify-content: space-between;
+}
+.datpaytment{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.datpaytment div{
+display: flex;
+flex-direction: column;
+width: 45%;
+}
+.datpaytment div select:focus{
+    outline: none;
+}
+.itmeAdd{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.infoItm{
+     display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: space-around;
+}
+.NamItm input{
+     width: 214px;
+}
+.infoItm .Qty input{
+     width: 46px;
+}
+.infoItm .Price input {
+     width: 100px;
+}
+.total .totalcontent{
+     width: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.butons{
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+
+}
+.butons div{
+     display: flex;
+}

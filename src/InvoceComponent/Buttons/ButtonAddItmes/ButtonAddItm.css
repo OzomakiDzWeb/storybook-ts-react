@@ -1,0 +1,30 @@
+.btn {
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+     height: 53px;
+     width: 80%;
+     margin: auto;
+     cursor: pointer;
+}
+
+.lghit{
+     justify-content: center;
+   background-color:var(--cloor-gray-100) ;
+   color: var(--cloor-gray-200);  
+}
+.lghit:hover{
+background-color: var(--cloor-gray-200);
+color: var(--cloor-lghitBg);
+}
+.dark {
+     background-color: var(--cloor-bleu-400);
+     color: var(--cloor-lghitBg);
+}
+
+.dark:hover {
+     background-color: var(--cloor-gray-200);
+     color: var(--cloor-lghitBg);
+}

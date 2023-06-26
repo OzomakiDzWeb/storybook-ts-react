@@ -1,0 +1,37 @@
+.btnAdd {
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     border-radius: 25px;
+     color: var(--cloor-lghitBg);
+     cursor: pointer;
+     background-color: var(--cloor-bleu-300)
+}
+.btnAdd:hover {
+     background-color: var(--cloor-bleu-200);
+}
+.btnAdd div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 30px;
+     height: 30px;
+     background-color: var(--cloor-lghitBg);
+     border-radius: 50%;
+}
+
+.btnAdd  h4{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+.larg{
+     width: 150px;
+     height: 48px;
+}
+.small{
+     width: 90px;
+     height: 44px;
+}
